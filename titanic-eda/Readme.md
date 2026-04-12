@@ -20,11 +20,11 @@ Le dataset Titanic (Kaggle) contient des informations sur 891 passagers : âge, 
 5. **Tableaux récapitulatifs** : effectifs et pourcentages par variable
 
 ## Principales conclusions
-- **Sexe** : 75 % des femmes ont survécu, contre 20 % des hommes
+- **Sexe** : 74 % des femmes ont survécu, contre 19 % des hommes
 - **Classe** : 63 % de survie en 1ʳᵉ classe, 24 % en 3ᵉ classe
 - **Âge** : les enfants (0‑10 ans) ont survécu à 75 %, les personnes âgées (+60 ans) à moins de 20 %
 - **Tarif** : corrélation positive avec la survie (0,26)
-- **Taille de la famille** : les passagers seuls ou avec peu de proches ont mieux survécu
+- **Taille de la famille** : les passagers avec peu de proches ont mieux survécu
 
 ## Graphiques produits
 - `countplot` avec pourcentages pour les variables catégorielles
