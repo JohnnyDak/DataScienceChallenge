@@ -29,7 +29,7 @@ Le dataset Titanic (Kaggle) contient des informations sur 891 passagers : âge, 
 ## Graphiques produits
 - `countplot` avec pourcentages pour les variables catégorielles
 - Boxplot et histogramme pour `Age` et `Fare`
-- Heatmap des corrélations
+
 
 ## Technologies utilisées
 - Python 3
