@@ -34,10 +34,3 @@ Le dataset Titanic (Kaggle) contient des informations sur 891 passagers : âge, 
 ## Technologies utilisées
 - Python 3
 - pandas, numpy, matplotlib, seaborn
-
-## Lancer le notebook
-```bash
-git clone https://github.com/votre-username/titanic-eda.git
-cd titanic-eda
-pip install -r requirements.txt
-jupyter notebook titanic_eda.ipynb
