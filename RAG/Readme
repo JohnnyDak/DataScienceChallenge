@@ -33,10 +33,3 @@ Un système de **Question-Réponse intelligent** basé sur le RAG (Retrieval-Aug
 - **8 Go de RAM** (recommandé)
 - **Environ 3 Go d'espace disque** (pour le modèle et la base)
 
-## 🚀 Installation et exécution
-
-### 1. Cloner le dépôt
-
-```bash
-git clone https://github.com/votre-username/rag-code-famille-togo.git
-cd rag-code-famille-togo
