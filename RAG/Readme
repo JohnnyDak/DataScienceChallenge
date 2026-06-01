@@ -1,0 +1,42 @@
+# ⚖️ Assistant juridique – Code des personnes et de la famille du Togo
+
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)](https://ollama.com)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+Un système de **Question-Réponse intelligent** basé sur le RAG (Retrieval-Augmented Generation) qui permet d'interroger en langage naturel le **Code des personnes et de la famille du Togo** (Loi n° de 2012).
+
+## ✨ Fonctionnalités
+
+- 🔍 **Recherche sémantique** : trouve les articles pertinents dans le code
+- 🧠 **Génération de réponses** : réponses précises basées uniquement sur le contexte juridique
+- 📖 **Sources traçables** : affiche les passages utilisés pour chaque réponse
+- 💬 **Interface utilisateur** : application Streamlit simple et intuitive
+- 🚀 **100% local et gratuit** : tout tourne sur votre machine, sans API payante
+
+
+## 🛠️ Technologies utilisées
+
+| Composant | Technologie | Rôle |
+|-----------|-------------|------|
+| **Embeddings** | Sentence-BERT (`all-MiniLM-L6-v2`) | Conversion du texte en vecteurs |
+| **Base vectorielle** | ChromaDB | Stockage et recherche des vecteurs |
+| **LLM** | Llama 3.2 (3B) via Ollama | Génération des réponses |
+| **Interface** | Streamlit | Application web interactive |
+| **Découpage** | Personnalisé (Regex) | Segmentation du code en chunks |
+
+## 📋 Prérequis
+
+- **Python 3.10 ou supérieur**
+- **Ollama** installé ([ollama.com/download](https://ollama.com/download))
+- **8 Go de RAM** (recommandé)
+- **Environ 3 Go d'espace disque** (pour le modèle et la base)
+
+## 🚀 Installation et exécution
+
+### 1. Cloner le dépôt
+
+```bash
+git clone https://github.com/votre-username/rag-code-famille-togo.git
+cd rag-code-famille-togo
